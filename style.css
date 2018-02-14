@@ -1,0 +1,306 @@
+body
+{
+background-color :#feecea;
+}
+#align
+{
+text-align : center;
+color:white;
+font-family :Times Roman;
+font-weight:300px;
+font-size: 30pt;
+font-style: Italic;
+background:linear-gradient(135deg, #ff2ea8, #ff2e5f);
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+text-shadow:0px 2px 2px rgba(255, 255, 255, 1);
+}
+#align2
+{
+text-align : left;
+color: #ae3323;
+font-family :Times Roman;
+font-weight:100px;
+font-size: 20pt;
+font-style:Italic;
+}
+
+
+.first
+{ 
+color: white;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+background:linear-gradient(135deg, #ff2ea8, #ff2e5f);
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+
+
+.second
+{ 
+color: #ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+margin:auto;
+}
+.third{
+color: white;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+text-align:center;
+background:linear-gradient(135deg, #ff2ea8, #ff2e5f);
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+.fourth
+{
+color: #ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+background-color:#fca498;
+width: 20%;
+}
+.fifth
+{
+color:#ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+background-color: #fca498;
+width: 20%;
+}
+
+
+.header
+{
+    font-size: 20pt; 
+	font-family:times roman;
+	font-weight: bold;
+
+}
+
+
+a:link {
+    color:#ff2962;
+    text-decoration:none;
+	font-size: 15pt;
+}
+
+a:hover {
+    
+    text-decoration:underline;
+	background-color:#ff7096;
+	font-size: 16pt;
+	font-style:  bold;
+}
+
+a:visited {
+    color:#ff2962;
+    text-decoration:none;
+	font-size: 25pt;
+	}
+	
+a:active {
+    color:#90095e;
+	background-color:yellow;
+    text-decoration:underline;
+	font-size: 25pt;
+	font-weight: bold;
+}
+-------------------------------------------------------------------
+.h2{
+color:#ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 35pt;
+font-weight: 100px;
+text-align:center;
+}
+.small1{
+color: #ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+text-align:center;
+}
+.small{
+color: #ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+text-align:center;
+}
+#head1{
+color: #ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 20pt;
+font-weight: 100px;
+text-align:center;
+}
+
+.head{
+color:#ff2962;
+font-family: times roman;
+font-style: oblique;
+font-size: 20pt;
+font-weight: 100px;
+text-align:center;
+}
+.copright{
+text-align :right;
+color: #ff2962;
+}
+
+.chocogift{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+border : dotted 3px brown;
+margin-left: 5%;
+}
+.about{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+border : dotted 3px brown;
+}
+.new{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+border : dotted 3px brown;
+float:left;
+
+}
+.corporate{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+.wedding{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+.party{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+.wholesale{
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+----------------------------------------------------------
+.order{
+color: white;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+}
+#order_form{
+background:linear-gradient(135deg, #ff2ea8, #ff2e5f);
+width:55%;
+margin:auto;
+border-radius: 30px;
+box-shadow: 0 0 35px #000000;
+}
+fieldset{
+width:50%;
+border:1px solid white;
+padding: 20px;
+margin:auto;
+color:white;
+}
+
+
+@media all and (max-width: 600px) {
+input{ width: 30px;
+}
+}
+
+
+
+h3{
+font-family:times roman;
+}
+#controls{
+text-align:center;
+margin:auto;
+}
+#btnSubmit, #btnReset{
+width:100px;
+height:40px;
+margin-right: 10px;
+font-size: 15pt;
+line-height: 25px;
+
+border-radius: 7px;
+box-shadow: 0 2px 0 #222;
+text-shadow:0 1px 0 #000;
+cursor:pointer;
+}
+
+#btnSubmit{
+background-color: #b6830c;
+color:#fff;
+font-weight: 700;
+}
+#btnReset{
+background-color: #666;
+color:#fff;
+}
+.subtotal{
+border-bottom:1px dashed white;
+}
+-------------
+.job_1
+{
+color: white;
+font-family: times roman;
+font-style: oblique;
+font-size: 15pt;
+font-weight: 100px;
+text-align:left;
+background:linear-gradient(135deg, #ff2ea8, #ff2e5f);
+border-radius:7px;
+box-shadow:  0 0 25px #75001b;
+}
+.main{
+background:linear-gradient(135deg, #fdc4e8,white);
+border: dash 5px #ff2e5f;
+border-radius:7px;
+box-shadow:  0 0 15px #75001b;
+color:#ff2e5f;
+font-style: oblique;
+font-family:white;
+font-size :15pt;
+font-weight:100px;
+}
+
+.hire{
+color:#f623a8;
+font-style: oblique;
+font-family:white;
+font-size :15pt;
+}
+
+.main1{
+background-color:#f61ea6;
+border: dash 5px #ff2e5f;
+border-radius:5px;
+box-shadow:  0 0 15px #75001b;
+color:white;
+font-style: oblique;
+font-family:white;
+font-size :20pt;
+font-weight:100px;
+}
