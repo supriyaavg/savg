@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang=english>
+	<head>
+		<title>Virtual Business - Chocolates</title>
+		<meta charset=UTF-8>
+		<link rel = "stylesheet" type ="text/css" href = "style.css" media = "screen">
+	</head>
+	<body>
+	 <img src ="Images/logo.png" class = "logo">
+		
+		<p style= "text-align: right">
+		<a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href = "products.html"> Products </a> | <a href ="order.html"> Orders </a> |
+		<a href="contact.html"> Contact </a> | <a href="new.html"> News </a> |
+		<a href="support.html"> Support </a> | <a href="faq.html"> FAQ </a> | <a href="jobs.html"> Jobs </a> | <a href="multimedia.html"> Video </a>
+		
+		<hr align = "center" size = "1px" width = "100%" color = "#f01985">
+		
+		<h1 id = "align"> Chocomize Handmade Premium Chocolates</h1>
+		
+		<hr align = "center" size = "1px" width = "100%" color = "#f01985">
+		<br>
+		
+<section id = "order_form">
+<br>
+
+
+<form method="post" action="http://itu.lewebcafe.com/sen910/form.php">
+
+<fieldset>
+<legend><h3> Customer Details </h3></legend>
+<section id="customer">
+
+<table>
+							
+	<tr>
+		<td>First Name</td>
+		<td><input type="text" name="FirstName"></td>
+	</tr>
+							
+	<tr>
+		<td>Last Name</td>
+	    <td><input type="text" name="LastName"></td>
+	</tr>
+							
+	<tr>
+		<td>Address</td>
+		<td><input type="text" name="Address" id="cusAdd"></td>
+	</tr>
+							
+	<tr>
+		<td>City</td>
+	    <td><input type="text" name="City"></td>
+	</tr>
+							
+	<tr>
+		<td>State</td>
+		<td><select name="state"></td>
+    </tr>
+							
+	<tr>
+		<td>Zip Code</td>
+		<td><input type="text" name="Zip"></td>
+	</tr>
+							
+	<tr>
+		<td>Phone</td>
+		<td><input type="tel" name="Phone"></td>
+	</tr>
+
+							
+	<tr>
+		<td>Email</td>
+		<td><input type="email" name="Email"></td>
+	</tr>
+    </table>
+	</section>
+	</fieldset>
+	
+	<fieldset>
+	<legend><h3> Payment Details </h3></legend>
+    <section id="payment">
+	<table>
+							
+	<tr>
+		<td class="card">Credit Card Number</td>
+		<td><input type="text" name="CreditCard" maxlength="16"></td>
+	</tr>
+
+	<tr>
+		<td class="card">Credit Card Type</td>
+		<td><select name="CreditCardType">
+		    <option selected>Visa</option>
+			<option>Master</option>
+			<option>Discover</option>
+			<option>Paypal</option>
+			<option>American Express</option>
+			</select></td>
+	</tr>
+
+	<tr>
+		<td class="card">Expiration Date</td>
+		<td><input type="month" name="ExpirationDate"></td>
+	</tr>
+
+	<tr>
+		<td>Comments</td>
+		<td><textarea type="text" name="Comments" rows="4" cols="20"></textarea></td>
+	</tr>
+	
+</table>
+</section>
+					
+</fieldset><br>
+
+
+<fieldset>
+<legend><h3>Product Details</h3></legend>
+<section id="product">
+<table>
+        <tr>
+			<th>Category</th>
+			<th>Description</th>
+			<th>Unit Price</th>
+			<th>Quantity</th>
+			<th>Total Price</th>
+		</tr>
+
+		<tr>
+			<td rowspan="3">CH001</td>
+			<td>Corporate Gift Baskets</td>
+			<td>USD 12.00</td>
+			<td><input type="number" name="A1Quantity1" id="CorporateGift"></td>
+			<td><input type="number" name="A1totalPrice" id="CorporateGift"></td>
+		</tr>
+		<tr>
+			  <td>Wedding Favours</td>
+			  <td>USD 10.00</td>
+			  <td><input type="number" name="A1Quantity2"></td>
+			  <td><input type="number" name="A1totalPrice2"></td>
+		</tr>
+		<tr>
+			<td></td>
+				<td class="subtotal">Subtotal</td>
+				<td><input type="number" name="A1subTotalPrice1"></td>
+				<td><input type="number" name="A1subTotalPrice2"></td>
+		</tr>
+
+								
+		<tr>
+			<td rowspan="3">CH002</td>
+			<td>Party & Event Favours</td>
+			<td>USD 7.00</td>
+			<td><input type="number" name="A2Quantity1"></td>
+			<td><input type="number" name="A2totalPrice"></td>
+		</tr>
+		<tr>
+			<td>Wholesale & Retail Store </td>
+			<td>USD 5.00</td>
+			<td><input type="number" name="A2Quantity2"></td>
+			<td><input type="number" name="A2totalPrice2"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="subtotal">Subtotal</td>
+			<td><input type="number" name="A2subTotalPrice1"></td>
+			<td><input type="number" name="A2subTotalPrice2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td class="subtotal">Total</td>
+		    <td><input type="number" name="allTotalPrice1"></td>
+			<td><input type="number" name="allTotalPrice2"></td>
+		</tr>
+
+</table>
+</section>
+</fieldset>
+
+				
+<br>
+
+
+
+
+
+<section id="controls">
+  <button type="submit" name="btnSubmit" id="btnSubmit">Submit</button>
+  <button type="reset" name="btnReset" id="btnReset">Reset</button>
+</section>
+<br><br>
+
+</form>
+</section>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<p style= "text-align: left">
+		<a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href = "products.html"> Products </a> | <a href ="order.html"> Orders </a> |
+		<a href="contact.html"> Contact </a> | <a href="new.html"> News </a> |
+		<a href="support.html"> Support </a> | <a href="faq.html"> FAQ </a>  | <a href="jobs.html"> Jobs </a> | <a href="multimedia.html"> Video </a>
+	
+	<div class = "copright">
+	  ©Copyright, Chocomize 2015
+	</div>
+		
+	</footer>
+</body>
+</html>
